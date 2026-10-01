@@ -45,11 +45,11 @@ When you run git clone, Git:<br>
 
 How it works<br>
 GitHub Repository<br>
-       ↓
+       ↓<br>
    git clone<br>
-       ↓
+       ↓<br>
 Your Computer<br>
-       ↓
+       ↓<br>
 project/
  ├── .git/
  ├── src/
@@ -70,15 +70,15 @@ Main.java<br>
 Git, add is used to move changes into the staging area, preparing them for the next commit.<br>
 
 How it works<br>
-Modify files
-    ↓
-git add .
-    ↓
-Staging Area
-    ↓
-git commit
-    ↓
-Repository
+Modify files<br>
+    ↓<br>
+git add .<br>
+    ↓<br>
+Staging Area<br>
+    ↓<br>
+git commit<br>
+    ↓<br>
+Repository<br>
 
 
 <h1>git add .</h1><br>
@@ -90,15 +90,15 @@ Example<br>
 git commit -m "Added login feature"<br>
 
 How it works<br>
-Modify files
-     ↓
+Modify files<br>
+     ↓<br>
 git add .
-     ↓
+     ↓<br>
 Staging Area
-     ↓
+     ↓<br>
 git commit -m "message"
-     ↓
-Git Repository
+     ↓<br>
+Git Repository<br>
 
 - git commit → Saves the staged changes<br>
 - -m → Adds a message describing the changes<br>
@@ -111,14 +111,14 @@ Git Repository
 
 How it works<br>
 
-Your Computer                  GitHub
-     │                           │
-     │  git commit               │
-     │  (saved locally)          │
-     │                           │
-     │────── git push ──────────>│
-     │                           │
-     │                     Commit uploaded
+Your Computer                  GitHub<br>
+     │                           │<br>
+     │  git commit <br>              │<br>
+     │  (saved locally) <br>         │<br>
+     │                           │<br>
+     │────── git push ──────────>│<br>
+     │                           │<br>
+     │                     Commit uploaded<br>
 
 git push → Sends your commits to the remote repository.<br>
 origin → Usually the name of your GitHub remote.<br>
