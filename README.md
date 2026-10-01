@@ -57,7 +57,7 @@ project/
 
  git clone is generally used when you don't have the project locally yet.<br>
 
-<h1>ls<h1><br>
+<h1>ls</h1><br>
 this command shows you all the files that are present in your directory<br>
 
 Example<br>
@@ -66,7 +66,7 @@ README.md<br> // md means markdown
 Main.java<br>
 
 
-<h1>git add filename<h1><br>
+<h1>git add filename</h1><br>
 Git, add is used to move changes into the staging area, preparing them for the next commit.<br>
 
 How it works<br>
@@ -81,11 +81,11 @@ git commit
 Repository
 
 
-<h1>git add .<h1><br>
+<h1>git add .</h1><br>
 Is used to stage all changes in the current directory for the next commit.<br>
 
 
-<h1>git commit -m "add a message"<h1><br>
+<h1>git commit -m "add a message"</h1><br>
 Example<br>
 git commit -m "Added login feature"<br>
 
@@ -105,9 +105,9 @@ Git Repository
 - "Added login feature" → Your commit message<br>
 
 
-<h1>git push -u origin main<h1> //For the first push, you may use:
+<h1>git push -u origin main</h1> //For the first push, you may use:
 
-<h1>git push<h1>
+<h1>git push</h1>
 
 How it works<br>
 
