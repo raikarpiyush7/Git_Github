@@ -114,3 +114,11 @@ origin → Usually the name of your GitHub remote.<br>
 main → The branch you're pushing to.<br>
 -u → Connects your local branch with the remote branch, so future git push commands can be shorter.<br>
 
+<h1>git branch</h1>
+In Git, a branch is a separate line of development that lets you work on changes without directly affecting another branch.<br>
+
+Example<br>
+* main<br>
+  feature-login<br>
+  bug-fix<br>
+
