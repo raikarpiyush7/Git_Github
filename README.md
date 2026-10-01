@@ -44,11 +44,11 @@ When you run git clone, Git:<br>
 5. 🔗 Connects your local repository to the remote repository.<br>
 
 How it works<br>
-GitHub Repository
+GitHub Repository<br>
        ↓
-   git clone
+   git clone<br>
        ↓
-Your Computer
+Your Computer<br>
        ↓
 project/
  ├── .git/
