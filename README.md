@@ -92,11 +92,11 @@ git commit -m "Added login feature"<br>
 How it works<br>
 Modify files<br>
      ↓<br>
-git add .
+git add .<br>
      ↓<br>
-Staging Area
+Staging Area<br>
      ↓<br>
-git commit -m "message"
+git commit -m "message"<br>
      ↓<br>
 Git Repository<br>
 
@@ -108,17 +108,6 @@ Git Repository<br>
 <h1>git push -u origin main</h1> //For the first push, you may use:
 
 <h1>git push</h1>
-
-How it works<br>
-
-Your Computer                  GitHub<br>
-     │                           │<br>
-     │  git commit <br>              │<br>
-     │  (saved locally) <br>         │<br>
-     │                           │<br>
-     │────── git push ──────────>│<br>
-     │                           │<br>
-     │                     Commit uploaded<br>
 
 git push → Sends your commits to the remote repository.<br>
 origin → Usually the name of your GitHub remote.<br>
