@@ -50,10 +50,10 @@ GitHub Repository<br>
        ↓<br>
 Your Computer<br>
        ↓<br>
-project/
- ├── .git/
- ├── src/
- └── README.md
+project/<br>
+ ├── .git/<br>
+ ├── src/<br>
+ └── README.md<br>
 
  git clone is generally used when you don't have the project locally yet.<br>
 
